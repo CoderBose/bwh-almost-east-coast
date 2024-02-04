@@ -40,6 +40,4 @@ Expand the event management system to allow for cross-participation between diff
 Add more resources and support groups for seniors to engage with the community and find assistance.
 
 ### Website
-Having used vercel before, we used vercel to deploy our application and it can be found at: https://wisdom-serve-r2l7zbr34-priyanka-boses-projects.vercel.app/
-
-To log in, please use Github to login to vercel and that should allow you to view the app.
+Having used vercel before, we used vercel to deploy our application and it can be found at: https://wisdom-serve.vercel.app/
