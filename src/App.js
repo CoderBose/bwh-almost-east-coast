@@ -46,7 +46,7 @@ const Main = () => {
     <main>
         <section className="hero">
           <h2>Rediscover the Joy of Community</h2>
-          <p>Welcome to [Service Name], where age is celebrated, and community service is the key to staying connected and making a lasting impact.</p>
+          <p>Welcome to WisdomServe, where age is celebrated, and community service is the key to staying connected and making a lasting impact.</p>
           <p>We're on a mission to redefine the senior experience by connecting senior living homes with service opportunities that bring purpose, joy, and a sense of belonging for their members.</p>
           <div className="cta-buttons">
             <Link to="/sign-up"><button>Sign up</button></Link>
@@ -56,7 +56,7 @@ const Main = () => {
 
         <section className="why-volunteer">
           <h3>Why Volunteer with Us?</h3>
-          <p>At [Service Name], we believe that everyone, regardless of age, has something valuable to contribute. Our carefully curated service opportunities are designed to harness the unique talents and wisdom of our seniors, creating a tapestry of shared experiences that enrich lives.</p>
+          <p>At WisdomServe, we believe that everyone, regardless of age, has something valuable to contribute. Our carefully curated service opportunities are designed to harness the unique talents and wisdom of our seniors, creating a tapestry of shared experiences that enrich lives.</p>
           <div className="benefits">
             <div className="benefit">
               <img src="/connect-with-community.png" alt="Connect Icon" className="benefit-icon" />

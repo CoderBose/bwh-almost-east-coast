@@ -29,7 +29,7 @@ body {
 
 /* Header styles */
 .App-header {
-  background-color: #fff;
+  background-color: #e1fae9;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@ main {
 /* Hero section styles */
 .hero {
   text-align: center;
-  background-color: #eee;
+  background-color: #CAF0D5;
   padding: 2rem;
 }
 
