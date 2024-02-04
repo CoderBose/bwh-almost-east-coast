@@ -21,15 +21,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/your-repo-name.git
+```git clone https://github.com/yourusername/your-repo-name.git```
 
 2. Install NPM packages:
-npm install
+```npm install```
 
 3. Configure your environment variables for connecting to the MySQL database in a .env file.
 
 4. Run the application:
-npm start
+```npm start```
 
 ### Usage
 After starting the application, you can navigate to http://localhost:3000 to access the web app. Use the navigation bar to sign up, log in, learn more about the service, or contact support.
