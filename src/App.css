@@ -5,17 +5,27 @@
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Arial', sans-serif;
+html,
+body {
+  font-family: "Arial", sans-serif;
   line-height: 1.6;
   color: #333;
 }
 
 /* Utility classes for padding and margin */
-.p-1 { padding: 1rem; }
-.mt-1 { margin-top: 1rem; }
-.mb-1 { margin-bottom: 1rem; }
-.mx-auto { margin-left: auto; margin-right: auto; }
+.p-1 {
+  padding: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Header styles */
 .App-header {
@@ -25,6 +35,11 @@ html, body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ddd;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color from the parent element */
 }
 
 .App-header h1 {
