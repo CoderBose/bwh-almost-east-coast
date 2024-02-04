@@ -14,7 +14,7 @@ const App = () => {
       <div className="App">
         <header className="App-header">
         <Link to="/" className="title-link">
-          <h1>Title</h1>
+          <h1>WisdomServe</h1>
         </Link>
           <nav>
             <Link to="/contact-us"><button>Contact Us</button></Link>
