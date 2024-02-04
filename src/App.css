@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Utility classes for padding and margin */
+.p-1 { padding: 1rem; }
+.mt-1 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
 
+/* Header styles */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fff;
+  padding: 1rem 2rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.App-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav button {
+  background: none;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 1rem;
+}
+
+nav button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Main content area */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  background-color: #eee;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #000;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cta-buttons button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cta-buttons button:hover {
+  background-color: #333;
+}
+
+/* Why volunteer section */
+.why-volunteer {
+  padding: 2rem;
+}
+
+.why-volunteer h3 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.why-volunteer p {
+  color: #555;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.benefit {
+  flex: 1;
+  margin: 1rem;
+}
+
+.benefit h4 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+/* Images styles */
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.images img {
+  max-width: 48%;
+  height: auto;
+  border-radius: 10px; /* Optional: if you want rounded corners */
+}
+
+/* Footer styles */
+.App-footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.App-footer a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .benefits {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .images img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-buttons button {
+    margin-bottom: 1rem;
   }
 }
