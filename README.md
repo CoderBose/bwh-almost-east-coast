@@ -21,23 +21,20 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 1. Clone the repository:
-```sh
 git clone https://github.com/yourusername/your-repo-name.git
 
 2. Install NPM packages:
-```sh
 npm install
 
 3. Configure your environment variables for connecting to the MySQL database in a .env file.
 
 4. Run the application:
-```sh
 npm start
 
-Usage
+### Usage
 After starting the application, you can navigate to http://localhost:3000 to access the web app. Use the navigation bar to sign up, log in, learn more about the service, or contact support.
 
-Roadmap
+### Roadmap
 Implement location services to determine the proximity between schools and retirement homes.
 Expand the event management system to allow for cross-participation between different retirement homes.
 Add more resources and support groups for seniors to engage with the community and find assistance.
