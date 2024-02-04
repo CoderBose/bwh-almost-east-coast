@@ -3,8 +3,9 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
-import SignUp from './SignUp'; 
-import LearnMore from './LearnMore'; 
+import SignUp from './SignUp';
+import LearnMore from './LearnMore';
+import LogIn from './Login';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/" element={<Main />} />
           <Route path="/learn-more" element={<LearnMore />} />
+          <Route path="/login" element={<LogIn />} />
         </Routes>
 
         <footer className="App-footer">
