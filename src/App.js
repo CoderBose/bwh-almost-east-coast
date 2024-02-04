@@ -13,7 +13,7 @@ const App = () => {
         <header className="App-header">
           <h1>Title</h1>
           <nav>
-            <Link to="/get-involved"><button>Get Involved</button></Link>
+            <Link to="/contact-us"><button>Contact Us</button></Link>
             <Link to="/login"><button>Login</button></Link>
           </nav>
         </header>
