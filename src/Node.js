@@ -51,5 +51,27 @@ app.post('/api/signup', async (req, res) => {
   }
 });
 
+app.post('/api/login', (req, res) => {
+  const { email, password } = req.body;
+
+  connection.query('SELECT * FROM users WHERE email = ?', [email], async (error, results) => {
+    if (error) {
+      return res.status(500).json({ message: 'Error querying the database', error });
+    }
+
+    if (results.length > 0) {
+      const comparison = await bcrypt.compare(password, results[0].password);
+      if (comparison) {
+        return res.status(200).json({ message: 'Login successful' });
+        // Here, we can also create a session or token for user authentication
+      } else {
+        return res.status(401).json({ message: 'Invalid credentials' });
+      }
+    } else {
+      return res.status(404).json({ message: 'User not found' });
+    }
+  });
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
