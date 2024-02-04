@@ -27,6 +27,11 @@ html, body {
   border-bottom: 1px solid #ddd;
 }
 
+.App-header a {
+  text-decoration: none;
+  color: inherit; /* Inherits the color from the parent element */
+}
+
 .App-header h1 {
   font-size: 1.5rem;
   font-weight: bold;

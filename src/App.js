@@ -4,14 +4,17 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
 import SignUp from './SignUp'; 
-import LearnMore from './LearnMore'; 
+import LearnMore from './LearnMore';
+import ContactForm from './ContactForm'; 
 
 const App = () => {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
+        <Link to="/" className="title-link">
           <h1>Title</h1>
+        </Link>
           <nav>
             <Link to="/contact-us"><button>Contact Us</button></Link>
             <Link to="/login"><button>Login</button></Link>
@@ -23,6 +26,7 @@ const App = () => {
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/" element={<Main />} />
           <Route path="/learn-more" element={<LearnMore />} />
+          <Route path="/contact-us" element={<ContactForm />} />
         </Routes>
 
         <footer className="App-footer">
