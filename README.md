@@ -38,3 +38,7 @@ After starting the application, you can navigate to http://localhost:3000 to acc
 Implement location services to determine the proximity between schools and retirement homes.
 Expand the event management system to allow for cross-participation between different retirement homes.
 Add more resources and support groups for seniors to engage with the community and find assistance.
+
+### Website
+Having used vercel before, we used vercel to deploy our application and it can be found at: https://wisdom-serve-r2l7zbr34-priyanka-boses-projects.vercel.app/
+To log in, please use Github to login to vercel and that should allow you to view the app.
