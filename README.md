@@ -41,3 +41,6 @@ Add more resources and support groups for seniors to engage with the community a
 
 ### Website
 Having used vercel before, we used vercel to deploy our application and it can be found at: https://wisdom-serve.vercel.app/
+
+### Prototype
+Utilized Figma for designing and showcasing UI layout with interactive features. Explore the prototype here: https://www.figma.com/file/FmA5pGQuW6J8noIQA9brqq/Untitled?type=design&node-id=4%3A427&mode=design&t=cpRbnV61XY6iRi4Z-1
